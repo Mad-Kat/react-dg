@@ -2,6 +2,9 @@
   "name": "react-dg",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run --conditions react-server ./index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
